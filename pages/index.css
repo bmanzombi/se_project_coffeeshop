@@ -103,5 +103,63 @@ justify-content: center;
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-
 }
+
+ .reservation {
+   padding:100px 0  120px;
+ }
+
+.reservation__title {
+margin-top: 0 0 80px;
+text-align: center;
+margin: auto;
+}
+
+.reservation__form {
+  margin: auto;
+}
+
+.form {
+  width: 305px;
+}
+
+.form__fieldset {
+padding: 0;
+margin: 0;
+border: none;
+}
+
+.form__label {
+margin-bottom: 32px;
+display: block;
+margin-left:12px ;
+}
+
+
+form__label[for="checkbox"] {
+  display: inline;
+  margin-left: 12px;
+  vertical-align: middle;
+  font-weight: 400px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form__input {
+  display:block;
+  padding: 0;
+  box-sizing: content-box;
+  width: 100%;
+  margin-top: 8px;
+  }
+
+.form__button {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #2f71e5;
+  color: #fff;
+  }

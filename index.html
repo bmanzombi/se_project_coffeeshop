@@ -75,7 +75,6 @@
             <div>
               <iframe
                 src="https://youtu.be/j6VlT_jUVPc?si=uuCQpx7g8zdlfDty"
-              
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
@@ -85,18 +84,43 @@
             <div>
               <iframe
                 src="https://youtu.be/st571DYYTR8?si=athK16B6-L3jJAXG"
-                
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">French press recipe -15 min</p>
             </div>
           </div>
         </section>
-        <section class="reservation" id="table"></section>
+        <section class="reservation" id="table">
+          <h2 class="reservation__title form">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for=" Name" class="form__label">
+                Name
+                <input type="Surname" class="form__input" />
+              </label>
+              <label for="Number of guests" class="form__label">
+                Number of guests
+                <input type="number" class="form__input" />
+              </label>
+              <label for="date & time-local" class="form__label">
+                Date & time
+                <input type="datetime-local" class="form__input" />
+              </label>
+              <label for="your email" class="form__label">
+                Your email
+                <input type="email" class="form__input" />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="I agree with terms of use" class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form_-checkbox" />
+              I agree with terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
-
       <footer class="footer"></footer>
     </div>
   </body>
