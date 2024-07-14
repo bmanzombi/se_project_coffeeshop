@@ -101,9 +101,9 @@
   background-color: #0a2750;
   color: #ffffff;
 }
-.recipes__iframe {
+.recipes__iframes {
   border: none;
-  
+
 }
 .recipes__videos {
   display: flex;
