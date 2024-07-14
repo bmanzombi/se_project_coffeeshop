@@ -92,21 +92,26 @@
 }
 .recipes {
 padding: 100px 80px 215px;
+background-color: #0A2750;
+color: #ffffff;
 }
 
 .recipes__videos {
 display: flex;
 gap: 100px;
 justify-content: center;
+background: #0a2750;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+
 }
 
  .reservation {
    padding:100px 0  120px;
+   background-color: #D9E7FF;
  }
 
 .reservation__title {
@@ -124,23 +129,15 @@ margin: auto;
 }
 
 .form__fieldset {
-padding: 0;
-margin: 0;
-border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .form__label {
-margin-bottom: 32px;
-display: block;
-margin-left:12px ;
-}
-
-
-form__label[for="checkbox"] {
-  display: inline;
-  margin-left: 12px;
-  vertical-align: middle;
-  font-weight: 400px;
+  margin-bottom: 32px;
+  display: block;
+  margin-left:12px ;
 }
 
 .form__label_type_checkbox {
@@ -148,9 +145,8 @@ form__label[for="checkbox"] {
   justify-content: center;
 }
 
-
 .form__input {
-  display:block;
+  display: block;
   padding: 0;
   box-sizing: content-box;
   width: 100%;
@@ -163,3 +159,5 @@ form__label[for="checkbox"] {
   background: #2f71e5;
   color: #fff;
   }
+
+  
