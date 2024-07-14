@@ -100,7 +100,6 @@ color: #ffffff;
 display: flex;
 gap: 100px;
 justify-content: center;
-background: #0a2750;
 }
 
 .recipes__video-caption {
@@ -115,7 +114,7 @@ background: #0a2750;
  }
 
 .reservation__title {
-margin-top: 0 0 80px;
+margin-top: 0 80px;
 text-align: center;
 margin: auto;
 }
