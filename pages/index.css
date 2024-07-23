@@ -1,7 +1,6 @@
-
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
-
+@import url(../blocks/about.css);
 .nav {
   display: flex;
   justify-content: space-between;
@@ -81,7 +80,6 @@
 }
 .recipes__iframe {
   border: none;
-
 }
 .recipes__videos {
   display: flex;
@@ -109,7 +107,7 @@
   margin: auto;
   font-weight: 500;
   font-size: 44px;
-  line-height: 52px
+  line-height: 52px;
 }
 
 .reservation__form {
@@ -117,8 +115,8 @@
 }
 
 .form {
- max-width: 385px;
- margin-top: 80px;
+  max-width: 385px;
+  margin-top: 80px;
 }
 
 .form__fieldset {
@@ -140,7 +138,7 @@
 .form__input {
   display: block;
   padding: 60px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
 }
@@ -161,7 +159,14 @@
 
 .menu {
   padding: 100px 0 100px;
-margin-top: ;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  background-color: #fff;
+  background: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .menu__title {
@@ -172,4 +177,111 @@ margin-top: ;
 .menu__subtitle {
   text-align: center;
   margin: 0 0 100px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item {
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+
+.footer {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 80px 80px;
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+}
+
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin: 0 0 16px;
+  font-size: 16px;
+}
+
+.footer__content {
+  
+  
+}
+
+.footer__content-heading {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__content-link {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer__content-link:hover {
+  color: #c1c1c1; /* hex */
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 10px;
+}
+
+.footer__copyright {
+  margin: 108px 0 60px;
 }
