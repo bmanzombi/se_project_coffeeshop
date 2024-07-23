@@ -1,0 +1,6 @@
+.footer {
+    box-sizing: border-box;
+    color: #fff;
+    padding: 80px 80px;
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  }

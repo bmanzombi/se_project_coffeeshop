@@ -1,14 +1,13 @@
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/about.css);
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  gap: 20px;
-}
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/form.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/card.css);
+@import url(../blocks/footer.css);
 
 .nav__logo {
   position: relative;
@@ -33,7 +32,6 @@
 .nav__link:hover {
   color: #1f69c9;
 }
-
 .header__image {
   z-index: 1;
   position: absolute;
@@ -73,14 +71,11 @@
 .header__paragraph {
   margin: 0;
 }
-.recipes {
-  padding: 100px 80px 215px;
-  background-color: #0a2750;
-  color: #ffffff;
-}
+
 .recipes__iframe {
   border: none;
 }
+
 .recipes__videos {
   display: flex;
   gap: 40px;
@@ -90,15 +85,6 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-}
-
-.reservation {
-  padding: 100px 0 120px;
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .reservation__title {
@@ -112,11 +98,6 @@
 
 .reservation__form {
   margin: auto;
-}
-
-.form {
-  max-width: 385px;
-  margin-top: 80px;
 }
 
 .form__fieldset {
@@ -157,18 +138,6 @@
   width: 20px;
 }
 
-.menu {
-  padding: 100px 0 100px;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  background-color: #fff;
-  background: url(../images/background_menu.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
@@ -191,10 +160,6 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-.card {
-  width: 540px;
 }
 
 .card__title {
@@ -225,13 +190,6 @@
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
-}
-
-.footer {
-  box-sizing: border-box;
-  color: #fff;
-  padding: 80px 80px;
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 }
 
 .footer__container{
