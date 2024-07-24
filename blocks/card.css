@@ -3,6 +3,7 @@
   }
 
   .card__title {
+    font-family: "Inter"; 
     margin: 0 0 32px;
     font-style: normal;
     font-weight: bold;
@@ -24,6 +25,7 @@
   }
   
   .card__list-item {
+    font-family: "Noto Serif"; 
     display: flex;
   }
   
