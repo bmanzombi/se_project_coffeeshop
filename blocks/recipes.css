@@ -3,3 +3,18 @@
     background-color: #0a2750;
     color: #ffffff;
   }
+
+  .recipes__iframe {
+    border: none;
+  }
+  
+  .recipes__videos {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .recipes__video-caption {
+    display: flex;
+    justify-content: space-between;
+  }

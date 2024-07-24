@@ -13,5 +13,43 @@
     background-size: cover;
   }
   
+  .header__image {
+    z-index: 1;
+    position: absolute;
+    max-width: 636px;
+    right: 20px;
+    top: 135px;
+  }
   
- 
+  .header__title {
+    max-width: 729px;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+    margin: 183px 0 0;
+    letter-spacing: -0.6px;
+  }
+  
+  .header__span-accent {
+    display: block;
+    color: #2f80ed;
+  }
+  
+  .header__description {
+    max-width: 683px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 0;
+  }
+  
+  .header__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    align-items: flex-end;
+  }
+  
+  .header__paragraph {
+    margin: 0;
+  }
+  
