@@ -31,11 +31,13 @@
   }
   
   .header__span-accent {
+    font-family: "Noto Serif", "Times New Roman", serif;
     display: block;
     color: #2f80ed;
   }
   
   .header__description {
+    font-family: "Noto Serif", "Times New Roman", serif;
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
