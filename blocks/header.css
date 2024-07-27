@@ -11,14 +11,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
   }
   
   .header__image {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
-    max-width: 636px;
-    right: 20px;
-    top: 135px;
+    width: 646px ;
+    right: 5px;
+    top: 124px;
   }
   
   .header__title {
@@ -37,11 +40,11 @@
   }
   
   .header__description {
-    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: "Noto Serif", "Times New Roman", serif;
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
-    margin: 20px 0 0;
+    margin: 28px 0 0;
   }
   
   .header__footer {
