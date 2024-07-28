@@ -34,7 +34,8 @@
   }
   
   .header__span-accent {
-    font-style: "Noto Serif", "Times New Roman", serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: italic;
     display: block;
     color: #2f80ed;
   }
