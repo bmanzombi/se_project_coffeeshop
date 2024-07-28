@@ -12,7 +12,7 @@
 }
 
 .about {
-  padding: 119px 80px 173px;
+  padding: 100px;
   background-color: #0A2850;
   color: #fff;
   overflow: hidden;
@@ -43,6 +43,7 @@
     font-weight: 400;
     max-width: 660px;
     z-index: 1;
+    margin-top: 19px;
   }
   
   .about__circle {

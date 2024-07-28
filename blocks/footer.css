@@ -27,7 +27,14 @@
     line-height: 20px;  
   }
   
+  .footer__list-item {
+    margin-bottom: 16px;
+  }
  
+  .footer__list-item:hover {
+    margin-bottom: 0;
+  }
+
   .footer__content {
     font-family: "Inter";
     font-style: normal;
