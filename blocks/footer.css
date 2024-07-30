@@ -18,7 +18,7 @@
   .footer__list {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 16px;
+    margin: 0;
     font-size: 16px;
     font-family: "Inter";
     font-style: normal;
@@ -31,7 +31,7 @@
     margin-bottom: 16px;
   }
  
-  .footer__list-item:hover {
+  .footer__list-item:last-of-type {
     margin-bottom: 0;
   }
 
